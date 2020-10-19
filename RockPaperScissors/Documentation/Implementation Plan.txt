@@ -1,0 +1,52 @@
+RockPaperScissors-0.1-INITIAL 
+
+***Implementation Plan***
+
+Author: Haroon Shinwari
+Release Date: 14/07/20
+
+Version 0.1
+
+
+Contents of RockPaperScissors
+-Implementation Plan
+-Back Out Plan
+-Release Notes
+-RockPaperScissors-0.1-INITIAL.jar
+
+
+Requirements:
+
+	Minimum Version of Java: 14.0.1
+
+
+***Implementation*** 
+
+Start by downloading the 
+
+Windows:
+
+	-open the command line
+
+	-locate the directory where the JAR file is stored
+		- type cd <folderName> to work your way through the directories
+		- type cd.. to go back up the directory
+		-type ls to show the folders within the directory you are at
+
+	-execute the JAR file by entering "java -jar RockPaperScissors-0.1-INITIAL.jar"
+
+
+
+Mac OS: 
+
+	-open terminal
+
+	-locate the directory where the JAR file is stored
+		- type cd <folderName> to work your way through the directories
+		- type cd.. to go back up the directory
+		-type ls to show the folders within the directory you are at
+
+	- execute the JAR file by entering "java -jar RockPaperScissors-0.1-INITIAL.jar"
+
+
+Enjoy 

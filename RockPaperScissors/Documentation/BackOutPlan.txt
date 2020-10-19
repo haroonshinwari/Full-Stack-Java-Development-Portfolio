@@ -1,0 +1,16 @@
+RockPaperScissors-0.1-INITIAL 
+
+*** BACK OUT PLAN ***
+
+Author: Haroon Shinwari
+Release Date: 14/07/20
+
+Version 0.1
+
+
+Instructions for removal/uninstall:
+
+- Simply locate the directory where you have downloaded the JAR file. 
+- Delete the JAR file
+- Delete the folder the JAR file was located in
+
