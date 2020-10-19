@@ -1,3 +1,5 @@
+<h1>Rock Paper Scissors</h1>
+
 Rock Paper Scissors is a simple game in which you play the classic playground game against the computer using the command line. The application is packaged as a JAR file using Maven. 
 
 This was the first project on the course and the application highlights some of the basic fundamentals of Java that were covered:
