@@ -1,0 +1,120 @@
+Agile Approach for DVD Library Assignment 
+Haroon Shinwari
+21/07/2020
+
+=========================
+Step 0:Requirement Steps
+
+User Stories for DVD Library Assignment
+
+- Add a DVD to the collection
+- Remove a DVD from the collection
+- List all the DVDs in the collection
+- Display information for a particular DVD [- Allow user to search for a DVD by title]
+
+- Edit information for an existing DVD in collection
+
+- Read from a file (dvdLibrary.txt) 
+- Save to a file (dvdLibrary.txt)
+- Allow user to add, edit, or delete many DVD's in one session.
+
+DVD data object:
+
+- Title
+- Release date
+- MPAA rating
+- Director's name
+- Studio
+- User rating or note (allows the user to enter additional information, e.g., "Good 	family movie")
+
+==========================
+Step 1: Design Steps 
+
+
+com.mthree.dvdlibrary
+
+	C- App class - has the main method that instantiates AddressBook Controller and calls the run() method.
+
+
+com.mthree.dvdlibrary.dto
+
+	C- DVD class (DTO - Data Transfer Object)
+
+
+com.mthree.dvdlibrary.dao
+
+	I- DVDLibraryDao interface (DAO - Data Access Object)
+	C- DVDLibraryDaoFileImpl implements the DVDLibraryDao interface: File implementation
+	C- DVDLibraryDaoException extends Exception (designed for handling exceptions)
+
+
+com.mthree.dvdlibrary.ui
+
+	I- UserIO interface (helper used by the view class to interact with the console)
+	C- UserIOConsoleImpl implements the UserIO interface(implements for input/output via a console)
+	C- View class (used by the Controller to handle user interaction)
+
+com.mthree.dvdlibrary.controller
+
+	C- AddressBook Controller class (the brains that orchestrates the programme)
+
+
+
+========================== Design Steps ============================
+Step 2:  
+
+UML DIAGRAM
+
++ public 
+-private
+
+App class 
+---------
++ fieldNameOne: DataType
++ fieldNameTwo: DataType
+---------
++Constructor(ParameterType param1: returnType
++Constructor(ParameterType param1, ParameterType param2)
++method(): returnType
++method(ParameterType param1): returnType
++method(ParameterType param1,ParameterType param2): returnType
+
+====================
+Step 3:
+
+FLOWCHART
+
+
+====================
+Step 4: 
+
+<title>::<releaseDate>::<mPAARating>::<directorsName>::<studio>::<userReview>
+
+========================== Construction Steps ============================
+Step 5:
+
+Create a menu system (in the execute method of DVDLibraryController) with stubbed out code for each menu choice. For example, when the user presses the choice to add an address, the system simply prints a message saying "AddAddress: To Be Implemented." This can be delivered to the user for testing and feedback.
+
+
+====================
+Step 6: 
+
+Pick a user story to implement. For example: "1. Add a DVD." For this story, we'll need to do the following:
+
+1. Create the DVD class (domain object)
+
+2. Create the DVDLibraryDao class:
+	-Include a HashMap or ArrayList to hold the DVD objects as a class level variable
+	-Implement the addDVD(...) method
+
+3. Add code into the DVDLibraryController to:
+	-Instantiate DVDLibraryDao object for storing DVD information
+	-Read in DVD information from the user
+	-Create a new DVD object
+	-Put address information from the user into the DVD object
+	-Add the new DVD to the DVDLibraryDao
+
+
+Each user story will be different, and the first one is always the most work.
+
+

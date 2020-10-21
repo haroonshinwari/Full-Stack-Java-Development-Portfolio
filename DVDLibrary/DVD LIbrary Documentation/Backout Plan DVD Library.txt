@@ -1,0 +1,22 @@
+=== DVD Library Backout Plan ====
+
+Version : 1.0
+Release Date: 23/07/2020
+Author: Haroon Shinwari
+
+
+=== Remove/Uninstall ===
+
+- Locate the folder in which you have saved the DVD Library JAR file.
+
+Windows
+	- C:/Program Files/DVD Library
+MacOS:
+	- /Application/DVD Library
+
+- Delete the JAR file and that would be sufficient to remove the DVD Library from you computer.
+
+- Additionally you may delete the library.txt file, which contains the DVD data, and will be in the same directory in the data folder.
+
+
+

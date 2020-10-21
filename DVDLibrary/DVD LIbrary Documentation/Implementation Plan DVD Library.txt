@@ -1,0 +1,95 @@
+----------------------------------------------------------------
+******************   DVD Library 0.1    ******************
+****************** Implementation Plan  ******************
+----------------------------------------------------------------
+
+Author: Haroon Shinwari
+Release Date: 23/07/2020
+
+Version 0.1
+
+----------------------------------------------------------------
+****************** Requirements ******************
+----------------------------------------------------------------
+
+ *** Minimum Version of Java: 14.0.1 ***
+
+
+To check your Java version 
+
+Windows:
+	- Hit Win+R
+	- Type "cmd" and press enter
+	- In the cmd window, type "java -version" and press enter
+
+
+MacOS:
+	- Press cmd plus space bar at the same time to open spotlight
+	- Enter "terminal" into the search bar and press enter
+	- In the terminal window, type "java -version" and press enter
+	
+
+If you do not have Java version 14.0.1 or higher. Please follow the tutorial below to download the JRE.
+
+Windows: Open the Software folder and click Windows and then double click the installer
+MacOS: Open the Software folder and click MacOS and then double click the installer
+
+
+Check your java version again to confirm it is version 14.0.1 or higher before proceeding.
+
+--------------------------------------------------------------------
+****************** Implementation ******************
+--------------------------------------------------------------------
+
+
+Locate the zipped file containing the application. Inside the Release folder is the zip file DVD Library
+
+
+
+For Windows: 
+	- Locate to the directory C:/Program Files/
+	- Paste the downloaded zip file DVDLibrary here and then unzip the file
+	-This will create a new folder called DVDLibrary in C:/Program Files/
+   			
+
+For MacOS:
+	- Open finder by pressing alt + cmd + spacebar 
+	(or locate the finder from the dock at the bottom of the screen)
+	- Then locate the Applications folder on the left panel and click it
+	- Paste the downloaded zip file DVDLibrary here and then unzip the file
+	- This will create a new folder called DVDLibrary in /Application
+
+
+
+
+Now, you are ready to execute the program:
+
+Windows:
+
+	-open the command line
+
+	-locate the directory where the JAR file is stored
+		- type cd C:/Program Files/DVDLibrary
+
+	-execute the JAR file by entering "java -jar DVDLibrary-0.1.jar"
+
+
+Mac OS: 
+
+	-open terminal
+		- by opening spotlight (type cmd + space bar) and then type terminal and enter
+
+	-locate the directory where the JAR file is stored
+		- type "cd /Applications/DVDLibrary" into the terminal
+		- type cd.. to go back up the directory
+		- type ls to show the folders within the directory you are at
+
+	- execute the JAR file by entering "java -jar DVDLibrary-0.1.jar"
+
+
+
+
+*** DVD Data ***
+
+All the DVD data is stored in the library.txt file. This is where the DVD data is read from and written to. Please ensure that the library.txt remains in the data folder.
+***************** Enjoy! *****************
