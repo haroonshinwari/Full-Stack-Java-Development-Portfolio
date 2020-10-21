@@ -1,0 +1,5 @@
+1::0.85::Fanta Fruit Twist can 330ml::5
+2::1.25::Oasis Tropical bottle 500ml::5
+3::0.70::Snickers bar 50g::5
+4::0.90::Coca Cola can 330ml::5
+5::1.30::Galaxy bar 50g::5

@@ -1,0 +1,16 @@
+Tue, 4 Aug 2020 02:56:17 +0100 : ====================== START OF TRANSACTION ======================
+
+Tue, 4 Aug 2020 02:57:18 +0100 : User exits from the main menu
+Tue, 4 Aug 2020 02:57:18 +0100 : ====================== END OF TRANSACTION ======================
+
+
+
+Tue, 4 Aug 2020 02:58:45 +0100 : ====================== START OF TRANSACTION ======================
+
+Tue, 4 Aug 2020 03:00:45 +0100 : ====================== START OF TRANSACTION ======================
+
+Tue, 4 Aug 2020 03:00:52 +0100 : User exits from stock page
+Tue, 4 Aug 2020 03:00:52 +0100 : ====================== END OF TRANSACTION ======================
+
+
+
