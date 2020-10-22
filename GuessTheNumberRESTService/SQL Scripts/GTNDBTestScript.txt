@@ -1,0 +1,24 @@
+DROP DATABASE IF EXISTS guessTheNumberDBTest;
+CREATE DATABASE guessTheNumberDBTest;
+
+USE guessTheNumberDBTest;
+
+CREATE TABLE Game(
+
+GameID INT PRIMARY KEY AUTO_INCREMENT,
+RandomNumber char(4) NOT NULL,
+Finished BOOLEAN DEFAULT false
+);
+
+CREATE TABLE GameRounds(
+
+GameID INT,
+RoundID INT,
+Guess char(4) NOT NULL, 
+Result char(7) NOT NULL DEFAULT 'e:0:p:0',
+TimeOfRound datetime DEFAULT NOW(),
+
+PRIMARY KEY pk_Game_Rounds (GameID, RoundID),
+
+FOREIGN KEY fk_GameRounds_game (GameID) REFERENCES Game(GameID) ON DELETE CASCADE
+);

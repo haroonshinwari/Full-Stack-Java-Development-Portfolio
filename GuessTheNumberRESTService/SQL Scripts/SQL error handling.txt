@@ -1,0 +1,61 @@
+/begin [POST]
+
+201 created 
+returns new gameID
+==================================
+/guess [POST]
+
+= valid gameID and valid guess
+201 created - returns the Round Object based on guess
+
+= invalid gameID and valid guess
+500 Internal Server Error and it shows stack trace :(
+"No game exists with this gameID"
+
+
+= valid gameID and invalid guess
+500 Internal Server Error
+- too many integers (TOO MANY VALUES ENTERED)
+- not enough integers (NOT ENOUG VALUES)
+
+
+= invalid gameID and invalid guess
+INVALID GAME ID - 404 NOT FOUND
+
+----
+guessing when game is finished - GAME FINISHED
+
+
+==================================
+=  /game [GET]
+
+=  200OK
+=  XXXX for games unfinished 
+=  1234 for games finished
+
+==================================
+=  /game/{id} [GET]
+
+valid id 
+=  200OK
+=  XXXX for games unfinished 
+=  1234 for games finished
+
+invalid id (but still int)
+=  404 Not Found (shows nothing)
+
+invalid id (but not int-instead string for example)
+=  400 Bad Request (shows nothing)
+
+==================================
+=  /rounds/{id} [GET]
+
+valid id 
+=  200OK
+
+invalid id (but still int)
+=  404 Not Found (shows nothing)
+
+invalid id (but not int-instead string for example)
+=  400 Bad Request (shows nothing)
+==================================
