@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="scripts/main.js" defer></script>
+    <title>Guess The Number Game</title>
+</head>
+
+<header>The Guessing Game</header>
+
+<body>
+    <div class="page">
+        <br>
+        <section class="userSelection">
+            <form>
+                <input type="button" class="button" onclick="gtnFetchAllGames()" value="Show all games">
+            </form>
+            <br>
+            <form>
+                <input type="button" class="button" onclick="gtnFetchBeginNewGame()" value="Begin a new game">
+            </form>
+            <br>
+            <form id="gameForm">
+                <input id="gameID" type="number" placeholder="GameID: ">
+                <input type="button" class="button" onclick="gtnFetchGameByID()" value="Show game by game id">
+            </form>
+
+            <form id="roundForm">
+                <input id="gameID" type="number" placeholder="GameID: ">
+                <input type="button" class="button" onclick="gtnFetchRoundsByID()"
+                    value="Show all rounds for a specific game">
+            </form>
+            <br>
+
+            <form id="guessForm">
+                <input id="gameID" type="number" placeholder="GameID: ">
+                <input id="guess" type="text" placeholder="Guess: ">
+                <input type="button" class="button" onclick="gtnFetchGuess()" value="Submit Guess">
+            </form>
+        </section>
+        <br>
+        <div class="container">
+
+            <span id="errorMessage"> </span>
+
+            <div id="displayAllGames" style="display:none">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#GameID</th>
+                            <th>Solution</th>
+                            <th>Game finished?</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableGamesBody">
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="displayRounds" style="display:none">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#GameID</th>
+                            <th>#RoundID</th>
+                            <th>Guess</th>
+                            <th>Result</th>
+                            <th>Time of Round</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableRoundsBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    Created by: Haroon Shinwari
+</footer>
+
+</html>
