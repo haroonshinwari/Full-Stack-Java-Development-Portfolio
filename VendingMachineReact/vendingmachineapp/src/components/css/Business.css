@@ -1,0 +1,31 @@
+.businessForm {
+    background-color: whitesmoke;
+    height: 33.3%;
+}
+
+#businessFormTitle {
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#displayBusinessProductBox {
+    margin: auto;
+    width: 70%;
+    border: 3px solid black;
+    padding: 10px;
+    align-content: center;
+}
+
+#messageBox {
+    background-color: aliceblue;
+    width: 70%;
+    padding: 20px;
+}
+
+#productSelectedBox {
+    background-color: aliceblue;
+}

@@ -1,0 +1,22 @@
+.changeForm {
+    background-color: whitesmoke;
+    height: 33.3%;
+}
+
+#changeFormTitle {
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#displayChangeBox {
+    background-color: aliceblue;
+    margin: auto;
+    width: 70%;
+    border: 3px solid rgb(23, 55, 62);
+    padding: 10px;
+    align-content: center;
+}

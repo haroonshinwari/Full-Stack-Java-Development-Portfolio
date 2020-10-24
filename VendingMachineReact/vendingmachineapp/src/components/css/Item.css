@@ -1,0 +1,23 @@
+.items {
+    background-color: rgb(23, 55, 62);
+    border-style: solid;
+    border-radius: 10px;
+    width: 25%;
+    margin: 25px;
+}
+
+#itemID {
+    color: aliceblue;
+}
+
+#itemName,
+#itemPrice,
+#itemQuantity {
+    color: aliceblue;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+#itemName {
+    font-weight: bold;
+}

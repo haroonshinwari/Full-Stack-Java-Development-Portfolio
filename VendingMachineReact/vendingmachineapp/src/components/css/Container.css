@@ -1,0 +1,21 @@
+.itemsWindow {
+    background-color: whitesmoke;
+    float: left;
+    width: 70%;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.formsWindow {
+    float: left;
+    width: 30%;
+    height: calc(100vh - 100px);
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
